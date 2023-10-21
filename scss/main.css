@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  max-width: 100%;
+  height: 1000px;
+  border: 1px solid;
+  display: flex;
+}
+.dashboard .left {
+  width: 23%;
+  height: 100%;
+  border: 1px solid;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+.dashboard .left .box {
+  background-color: #f4fbfd;
+  width: 148.5px;
+  height: 130px;
+  border: 1px solid;
+  display: flex;
+  border-radius: 8px;
+}
+.dashboard .left .box .text1 {
+  position: relative;
+  top: 80px;
+  right: 18px;
+  color: #ccc;
+  font-size: 22px;
+}
+.dashboard .left .box .icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  position: relative;
+  left: 40px;
+}
+.dashboard .left .box:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.dashboard .left .box:hover p {
+  color: #000;
+}
+.dashboard .right {
+  width: 77%;
+  height: 100%;
+  border: 1px solid;
+  flex-wrap: wrap;
+}
+.dashboard .right .item1 {
+  width: 100%;
+  height: 25%;
+  border: 1px solid;
+  display: flex;
+  gap: 22px;
+}
+.dashboard .right .item1 .left3 {
+  width: 45%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .item1 .card2 {
+  width: 70%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .item1 .card3 {
+  width: 30%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .item1 .right3 {
+  width: 55%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .item1 .card1 {
+  background: url(../images/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .item1 .card1 .text2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.dashboard .right .item1 .card1 .text3 {
+  transform: translateY(110px);
+  color: #fff;
+  font-weight: 600;
+}
+.dashboard .right .item1 .card1 .btn1 {
+  transform: translateY(65px) translateX(170px);
+  width: 150px;
+  height: 40px;
+  background: orange;
+  border: 1px solid orange;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  text-align: center;
+}
+.dashboard .right .item1 .card1 .btn1 p {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.dashboard .right .big {
+  width: 60%;
+  height: 100%;
+  border: 1px solid;
+}
+.dashboard .right .big .btn2 {
+  transform: translateY(65px) translateX(170px);
+  width: 150px;
+  height: 40px;
+  background: tomato;
+  border: 1px solid tomato;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  text-align: center;
+}
+.dashboard .right .big .btn2 p {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.dashboard .right .big .btn2 .text4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.dashboard .right .small {
+  width: 40%;
+  height: 100%;
+  border: 1px solid;
+}/*# sourceMappingURL=main.css.map */
